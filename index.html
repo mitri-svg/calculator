@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <!-- <div class="wrapper">
+        <div class="l">
+            <section class="screen" id="screen">
+                0
+            </section>
+            <section class="screen" id="screen">
+                
+            </section>
+            <section class="screen screen1" id="screen">
+                0
+            </section>
+        </div>
+        <section class="calc-buttons">
+            <div class="calc-button-row buttons1">
+                <button class="calc-button double C">
+                    C
+                </button>
+                <button class="calc-button larr">
+                    &larr;
+                </button>
+                <button class="calc-button bolme">
+                    &divide;
+                </button>
+            </div>
+            <div class="calc-button-row buttons2">
+                <button class="calc-button b7">
+                    7
+                </button>
+                <button class="calc-button b8">
+                    8
+                </button>
+                <button class="calc-button b9">
+                    9
+                </button>
+                <button class="calc-button vurma">
+                    &times;
+                </button>
+            </div>
+
+
+            <div class="calc-button-row button3">
+                <button class="calc-button b4">
+                    4
+                </button>
+                <button class="calc-button b5">
+                    5
+                </button>
+                <button class="calc-button b6">
+                    6
+                </button>
+                <button class="calc-button cixma">
+                    &minus;
+                </button>
+            </div>
+
+            <div class="calc-button-row buttons4">
+                <button class="calc-button b1">
+                    1
+                </button>
+                <button class="calc-button b2">
+                    2
+                </button>
+                <button class="calc-button b3">
+                    3
+                </button>
+                <button class="calc-button toplama">
+                    &plus;
+                </button>
+            </div>
+            <div class="calc-button-row buttons5">
+                <button class="calc-button triple b0">
+                    0
+                </button>
+                <button class="calc-button equals">
+                    &equals;
+                </button>
+            </div>
+        </section>
+    </div> -->
+
+
+    <div id="calculator">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('-')" class="operator-btn">-</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('*')" class="operator-btn">*</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('/')" class="operator-btn">/</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="clearDisplay()" class="operator-btn">C</button>
+        </div>
+
+    </input>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
